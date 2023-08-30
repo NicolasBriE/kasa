@@ -1,0 +1,45 @@
+h1 {
+    color: #FF6060;
+}
+
+.location-appartement {
+    color: #FF6060;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.appart {
+    width: 90%;
+    margin: auto;
+}
+
+.titre-et-host {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.host {
+    display: flex;
+}
+
+.host-name {
+    color: #FF6060;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.host-picture img {
+    border-radius: 50%;
+}
+
+.tags-et-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+
+}
+
+.link {
+    color: #FF6060;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:420px) {
+    .nav {
+        gap: 10px;
+    }
+
+    .link {
+        font-size: small;
+    }
+}
