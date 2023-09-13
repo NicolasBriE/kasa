@@ -11,8 +11,7 @@ function Slider(props) {
   function imagePrecedente() {
     setNumber(number === 0 ? props.images.length - 1 : number - 1);
   }
-  console.log(props.images.length);
-  console.log(props);
+
   return (
     <div className="carousel-container">
       {props.images.length > 1 && (
@@ -34,7 +33,9 @@ function Slider(props) {
             }
             key={index}
           >
-            {index === number && <img src={image} className="image"></img>}
+            {index === number && (
+              <img src={image} alt="appartement" className="image"></img>
+            )}
             {index === number && props.images.length > 1 && (
               <span className="compteur">
                 {number + 1}/{props.images.length}

@@ -10,7 +10,7 @@ import "./appart.css";
 function Appart() {
   let { id } = useParams();
   const dataAppart = data.find((logement) => logement.id === id);
-  console.log(dataAppart);
+
   if (dataAppart) {
     return (
       <div className="appart">
