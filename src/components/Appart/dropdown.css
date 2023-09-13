@@ -1,24 +1,16 @@
-.dropdown-description {
+.dropdown-appart {
     background-color: #FF6060;
-    width: 40%;
     color: white;
     height: 50px;
     cursor: pointer;
     border-radius: 15px;
     position: relative;
+    font-weight: bold;
 }
 
-.dropdown-equipments {
-    background-color: #FF6060;
-    width: 40%;
-    color: white;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 15px;
-    position: relative;
-}
 
 p {
+    margin-left: 20px;
     padding: 15px;
 }
 
@@ -38,14 +30,31 @@ p {
     font-size: x-large;
 }
 
-.dropdown-description-content {
-    width: 40%;
+.dropdown-appart-content {
     border-radius: 15px;
     background-color: #F6F6F6;
+    top: 100%;
+    margin-top: -10px;
 }
 
-.dropdown-description-content-text {
+.dropdown-content-text {
     display: flex;
-    padding: 40px;
+    padding: 30px;
     color: #FF6060;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.dropdown-equipments-content-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: #FF6060;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.dropdowns-container {
+    width: 100%;
 }

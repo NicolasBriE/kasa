@@ -1,0 +1,52 @@
+.errorpage {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title-error {
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    font-size: 200px;
+    font-weight: bold;
+}
+
+.texte-error {
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link-error {
+    color: #FF6060;
+    text-decoration: underline;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:720px) {
+
+    .title-error {
+        font-size: 100px;
+    }
+
+    .texte-error {
+        font-size: 20px;
+    }
+
+    .link-error {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .texte-error {
+        font-size: 15px;
+    }
+}

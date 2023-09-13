@@ -1,11 +1,10 @@
-import backgroundHome from "../../assets/images/backgroundHome.png";
 import "./background.css";
 
-function Background() {
+function Background({ image, texte }) {
   return (
     <div className="background">
-      <img src={backgroundHome} className="background-image" alt="image Home" />
-      <div className="background-text">Chez vous, partout et ailleurs</div>
+      <img src={image} className="background-image" alt="image Home" />
+      <div className="background-text">{texte}</div>
     </div>
   );
 }

@@ -16,13 +16,13 @@ function Slider(props) {
   return (
     <div className="carousel-container">
       {props.images.length > 1 && (
-        <div className="fleche-precedente" onClick={imagePrecedente}>
-          <i className="fa-solid fa-chevron-left"></i>
-        </div>
-      )}
-      {props.images.length > 1 && (
-        <div className="fleche-suivante" onClick={imageSuivante}>
-          <i className="fa-solid fa-chevron-right"></i>
+        <div>
+          <div className="fleche-precedente" onClick={imagePrecedente}>
+            <i className="fa-solid fa-chevron-left"></i>
+          </div>
+          <div className="fleche-suivante" onClick={imageSuivante}>
+            <i className="fa-solid fa-chevron-right"></i>
+          </div>
         </div>
       )}
 

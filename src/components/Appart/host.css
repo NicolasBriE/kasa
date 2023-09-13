@@ -1,0 +1,27 @@
+.host {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.host-name {
+    color: #FF6060;
+    font-size: larger;
+    font-weight: bold;
+    width: 50%;
+}
+
+.host-picture {
+    display: flex;
+    height: 80px;
+}
+
+.host-picture img {
+    border-radius: 50%;
+}
+
+@media screen and(max-width:420px) {
+
+    .host {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+.dropdowns-container-apropos {
+    width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width:420px) {
+
+    .dropdowns-container-apropos {
+        width: 100%;
+    }
+}

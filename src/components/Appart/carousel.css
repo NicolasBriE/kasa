@@ -27,22 +27,25 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .fleche-precedente {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 2%;
-    font-size: 8em;
+    transform: translate(-0%, -50%);
+    font-size: 4em;
     color: white;
     cursor: pointer
 }
 
 .fleche-suivante {
     position: absolute;
-    top: 35%;
+    top: 50%;
     right: 2%;
-    font-size: 8em;
+    transform: translate(-0%, -50%);
+    font-size: 4em;
     color: white;
     cursor: pointer
 }
@@ -53,4 +56,23 @@
     position: absolute;
     bottom: 5%;
     left: 50%;
+}
+
+@media screen and (max-width:420px) {
+
+    .compteur {
+        display: none;
+    }
+
+    .fleche-precedente {
+        font-size: 2em;
+    }
+
+    .fleche-suivante {
+        font-size: 2em;
+    }
+
+    .carousel-image {
+        height: 300px;
+    }
 }
